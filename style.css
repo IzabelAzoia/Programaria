@@ -1,0 +1,90 @@
+ 
+body {
+    font-family:'Indie Flower', cursive;
+    background-color: #f5e6e6; 
+}
+
+header {
+    height: 100px;  
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0;  
+}
+h2 {
+    text-justify: initial;
+    margin-bottom: 60px;
+} 
+
+section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+    margin-top: 100px;
+}
+.card {
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid black;
+    vertical-align: top;
+    max-height: 100%;
+    background-color: rgb(233, 194, 109);
+}
+
+.card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+.card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+.card details summary {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.card details p {
+    padding: 0 10px;
+}
+
+.card details blockquote {
+    color: #777;
+    font-style: italic;
+}
+
+@media(max-widht:768px) {
+    header {
+        margin-bottom: 20px;
+        height: 200px;
+    }
+    h1, h2 {
+        font-size: 36px;
+        padding-bottom: 40px;
+    }
+    .card {
+        display: block;
+        margin: 20px 10px;
+        padding-top: 40px;
+    }
+    .card img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card details {
+        width: 100%;
+    }
+    .card details summary {
+        font-size: 16px;
+    }
+    .card details p {
+        font-size: 14px;
+    }
+}
